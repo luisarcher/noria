@@ -14,9 +14,9 @@ spec:
   project: platform
   sources:
     - path: platform/argocd
-      repoURL: git@github.com:luisarcher/noria.git
+      repoURL: https://github.com/luisarcher/noria.git
     - path: platform/argocd-monitoring
-      repoURL: git@github.com:luisarcher/noria.git
+      repoURL: https://github.com/luisarcher/noria.git
   syncPolicy:
     automated:
       allowEmpty: true
